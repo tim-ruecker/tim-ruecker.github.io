@@ -1,0 +1,84 @@
+:root {
+    --col-title: #f8eee3;
+    --col-main: #3d3c3c;
+
+    --col-light: #fae0d4;
+    --col-dark: #f6d2c1;
+    --col-footer: #483641;
+}
+
+body {
+    background-color: var(--col-light);
+
+    font-family: trade-gothic-next, sans-serif;
+
+
+    font-style: normal;
+    font-size: 24px;
+    margin: 0;
+    color: var(--col-main);
+}
+.center{
+
+    text-align: center;
+    margin: 0;
+}
+.bgLight{
+    background-color: var(--col-light);
+}
+.bgDark{
+    background-color: var(--col-dark);
+}
+.section{
+    padding: 2%;
+}
+.footer{
+    padding: 2%;
+    background-color: var(--col-footer);
+    color: lightgray;
+    font-size: 20px;
+}
+.title{
+    background-image: url("clouds0.jpg");
+    color: var(--col-title);
+    height: 100vh;
+    margin: 0;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+h1 {
+    margin-top: 0;
+    padding-top: 10%;
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 20%;
+}
+h2 {
+    font-weight: 600;
+    font-size: 30px;
+    margin: 10px;
+}
+h3 {
+    font-weight: 500;
+    font-size: 30px;
+    margin: 10px;
+}
+p {
+
+}
+
+.grid {
+
+}
+.grid img {
+    max-width: 30%;
+    height: auto;
+    margin: 10px;
+}
+
+img {
+    max-width: 70%;
+    height: auto;
+    margin: 10px;
+}
