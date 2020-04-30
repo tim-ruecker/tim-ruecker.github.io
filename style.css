@@ -88,7 +88,7 @@ h4 {
     margin: 5px;
     background: rgba(0, 0, 0, 0.03);
 }
-span img {
+.image img {
     height: 300px;
     width: auto;
     background-size: cover;
@@ -102,6 +102,17 @@ span img {
     max-width: 30%;
     margin: 10px;
 
+    width: auto;
+    background-size: cover;
+}
+.vision {
+    padding-top: 1px;
+    max-height: 50%;
+}
+.vision img {
+    max-width: 40%;
+    margin: 0;
+    height: 500px;
     width: auto;
     background-size: cover;
 }
